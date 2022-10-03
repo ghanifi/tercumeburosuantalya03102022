@@ -32,14 +32,14 @@ const Item = ({ state, item }) => {
 
         <div className="bio-info">
           {/* If the post has an author, we render a clickable author text. */}
-          {author && (
+          {/* author && (
             <StyledLink link={author.link}>
               <Image src={author.avatar_urls['48']} alt={author.name} />
               <AuthorName>
                 <b>{author.name}</b>
               </AuthorName>
             </StyledLink>
-          )}
+          )*/}
           <PublishDate>
             {" "}
             {date.toDateString()}
