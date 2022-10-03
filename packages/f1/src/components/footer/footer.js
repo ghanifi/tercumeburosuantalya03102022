@@ -47,10 +47,7 @@ const Footer = ({ state }) => {
                       </ul>
                   </div>
               </div>
-              <div id="wab_cont" class="wab-cont ui-draggable wab-bottom-rectangle ui-draggable-handle">
-     <a id="whatsAppButton" href="https://wa.me/905321514767/?text=Merhabalar%2C%0D%0ATercume%20edilecek%20dosyalarinizi%20bize%20whatsapp%20ile%20gondererek%20hemen%20fiyat%20ve%20sure%20hakkinda%20bilgi%20alabilirsiniz." target="_blank">
-                      <span class="">Hemen Whatsapp ile fiyat teklifi alin.</span></a>
-              </div>
+         
           </Container>
     </>
   );
