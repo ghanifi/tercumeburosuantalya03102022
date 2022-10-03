@@ -9,7 +9,7 @@ const Header = ({ state }) => {
     <>
       <BrandContainer>
         <StyledLink link="/">
-                  <Title><span>Tercüme Bürosu Antalya </span> by Londonos</Title>
+                  <Title><span>Tercüme Bürosu Antalya </span> <img src="https://cdn.tercumeburosuantalya.com.tr/wp-content/uploads/2022/10/londonos-logo-svg.svg" width="120" alt="Tercume Burosu Antalya Logo"/></Title>
         </StyledLink>
         <MobileMenu />
       </BrandContainer>
