@@ -73,7 +73,7 @@ export default connect(Theme);
 
 const globalStyles = css`
   :root {
-    --brand: #5B3BE8;
+    --brand: #365c6e;
     --black: #000000;
     --white: #ffffff;
     --bodycolor: #343434;
