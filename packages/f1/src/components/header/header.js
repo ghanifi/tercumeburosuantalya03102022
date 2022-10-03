@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
 import Nav from "./nav";
@@ -9,7 +9,7 @@ const Header = ({ state }) => {
     <>
       <BrandContainer>
         <StyledLink link="/">
-          <Title><span>F1</span> by awsm</Title>
+                  <Title><span>Tercüme Bürosu Antalya </span> by Londonos</Title>
         </StyledLink>
         <MobileMenu />
       </BrandContainer>
