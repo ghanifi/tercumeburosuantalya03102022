@@ -44,7 +44,8 @@
     "@frontity/tiny-router",
     "@frontity/html2react",
     // "frontity-contact-form-7",
-    "@awsmin/frontity-wp-job-openings"
+      "@awsmin/frontity-wp-job-openings",
+      "@aamodtgroup/frontity-contact-form-7"
   ]
 };
 

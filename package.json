@@ -17,6 +17,7 @@
   "author": "Awsm Innovations",
   "prettier": {},
   "dependencies": {
+    "@aamodtgroup/frontity-contact-form-7": "^0.2.14",
     "@awsmin/f1": "./packages/f1",
     "@awsmin/frontity-wp-job-openings": "^1.1.0",
     "@frontity/core": "^1.9.0",
