@@ -1,10 +1,10 @@
-const settings = {
+﻿const settings = {
   "name": "f1",
   "state": {
     "frontity": {
-      "url": "https://staging2.awsm.in/fone/",
-      "title": "AWSM F1 - Frontity theme",
-      "description": "A simple theme for Frontity WordPress development"
+      "url": "https://www.tercumeburosuantalya.com.tr",
+      "title": "Antalya Tercüme Bürosu - Yeminli ve Noter Onaylı Tercüme - LONDONOS",
+      "description": "Antalya Tercüme Bürosu Uzman Tercümanları İle Size En Kaliyeti Tercüme Hizmetini Sunuyor! Antalya Tercüme Büroları Arasında En Uygun Fiyata Tercüme Hizmeti Almak İçin Arayın! 7/24"
     }
   },
   "packages": [
@@ -13,11 +13,13 @@ const settings = {
       "state": {
         "theme": {
           "menu": [
-            ["About", "/about/"],
-            ["Services", "/services/"],
-            ["Career", "/jobs/"],            
-            ["Blog", "/blog/"],
-            ["Contact", "/contact/"]
+            ["Hakkımızda", "/hakkimizda/"],
+            ["Hizmetlerimiz", "/hizmetlerimiz/"],
+            ["Diller", "/diller/"],            
+            ["Kariyer", "/jobs/"],
+                ["Blog", "/blog/"],
+                ["İletişim", "/iletisim/"],
+               
           ],
           "featured": {
             "showOnList": true,
@@ -32,8 +34,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          api: "https://staging2.awsm.in/fone/wp-json",
-          url: "https://staging2.awsm.in/fone",
+          api: "https://londonos.tercumeburosuantalya.com.tr/wp-json",
+          url: "https://londonos.tercumeburosuantalya.com.tr",
           "homepage": "/home",
           "postsPage":"/blog"
         }
