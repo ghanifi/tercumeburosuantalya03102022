@@ -123,6 +123,39 @@ const globalStyles = css`
       padding: 50px 0;
     }
   }
+.wab-bottom-rectangle.wab-cont {
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    width: 100%;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    -ms-transition: All .5s ease;
+    transition: All .5s ease;
+}
+.wab-bottom-rectangle #whatsAppButton {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    direction: ltr;
+    z-index: 9999;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    background: #20b038;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    -ms-transition: All .5s ease;
+    transition: All .5s ease;
+}
+
+
 `;
 
 const HeadContainer = styled.div`
