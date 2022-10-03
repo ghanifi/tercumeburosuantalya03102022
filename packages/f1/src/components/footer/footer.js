@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
 
@@ -10,44 +10,45 @@ const Footer = ({ state }) => {
   // const options = state.source.get("acf-options-page");
   return (
     <>
-      <Container>
-        <div className="row">
-          <div className="col-12 col-lg-6 footer-widget widget-one">
-            <h6 className="widget-title">About the company</h6>
-            <p>Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Egestas quis ipsum suspendisse ultrices gravida. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Egestas quis ipsum suspendisse ultrices gravida.</p> 
-          </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
-            <h6 className="widget-title">Company</h6>
-            <ul className="widget-list">
-              <li><Link className="widget-list-link" link="/about/">About us</Link></li>
-              <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-              <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
-              <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-              <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
-            </ul>
-          </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
-            <h6 className="widget-title">Company</h6>
-            <ul className="widget-list">
-              <li><Link className="widget-list-link" link="/about/">About us</Link></li>
-              <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-              <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
-              <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-              <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
-            </ul>
-          </div>
-          <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
-            <h6 className="widget-title">Connect</h6>
-            <ul className="widget-list">
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/awsminnovations">Facebook</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/awsmin">Twitter</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/awsmin/">Instagram</Link></li>
-              <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://github.com/awsmin">Github</Link></li>
-            </ul>
-          </div>
-        </div>
-        
-      </Container>
+          <Container>
+              <div className="row">
+                  <div className="col-12 col-lg-6 footer-widget widget-one">
+                      <h6 className="widget-title">Tercüme Bürosu Antalya Hakkında</h6>
+                      <p>Tercüme bürosu Antalya, ödüllü 200 dili aşkın çalışan profesyonel çevirmenler ve tercümanlardan oluşan küresel bir ağ ile uluslararası çeviri hizmetleri şirketidir.
+</p> <p>Tıbbi, Medikal, Mühendislik, Finans, Sigortacılık, Gayrimenkul, Hukuk gibi özel alanlarda mesleki bilgi sahibi tercümanlar tarafından yapılan çeviriler ile işimize kalite kazandırıyoruz. İngilizce, Almanca, Rusça, Fransızca, İtalyanca, İbranice, Arapça, Latince, dilleri basta olmak üzere toplamda 54 farklı yabancı dilde tercüme hizmeti gerçekleştirebilmekteyiz.</p>
+                  </div>
+                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
+                      <h6 className="widget-title">LONDONOS</h6>
+                      <ul className="widget-list">
+                          <li><Link className="widget-list-link" link="/hakkimizda/">Hakkımızda</Link></li>
+                          <li><Link className="widget-list-link" link="/hizmetlerimiz/">Tercüme Hizmetleri</Link></li>
+                          <li><Link className="widget-list-link" link="/jobs/">Kariyer</Link></li>
+                          <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                          <li><Link className="widget-list-link" link="/iletisim/">İletişim</Link></li>
+                      </ul>
+                  </div>
+                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
+                      <h6 className="widget-title">Tercüme Antalya</h6>
+                      <ul className="widget-list">
+                          <li><Link className="widget-list-link" link="/diller/">Diller</Link></li>
+                          <li><Link className="widget-list-link" link="/hizmetlerimiz/">Çeviri Hizmetleri</Link></li>
+                          <li><Link className="widget-list-link" link="/jobs/">İş İlanları</Link></li>
+                          <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                          <li><Link className="widget-list-link" link="/iletisim/">İletişim</Link></li>
+                      </ul>
+                  </div>
+                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
+                      <h6 className="widget-title">Sosyal Medya</h6>
+                      <ul className="widget-list">
+                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/GGGTercume/">Facebook</Link></li>
+                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/gggtercume">Twitter</Link></li>
+                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/gggtercume/">Instagram</Link></li>
+                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://translation.londonos.uk">London Branch</Link></li>
+                      </ul>
+                  </div>
+              </div>
+
+          </Container>
     </>
   );
 };
