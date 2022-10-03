@@ -156,7 +156,7 @@ const Content = styled.div`
         box-shadow: 0px 2px 16px -9px rgba(0,0,0,0.5);
         border:1px solid #CCCAD5;
         border-radius:5px;
-        padding:2.5rem 3rem;
+        padding:2.5rem 2rem;
         background:var(--white);
         color: var(--black);
         @media (min-width: 992px) { 
