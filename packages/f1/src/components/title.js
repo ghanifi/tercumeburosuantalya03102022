@@ -35,7 +35,7 @@ const Title = ({ state }) => {
     title = `Blog - ${state.frontity.title}`;
   } else if (data.isAwsmJobOpeningsArchive) {
     // Add titles to 404's.
-    title = `Kariyer - ${state.frontity.title}`;
+    title = `Career - ${state.frontity.title}`;
   } else if (data.is404) {
     // Add titles to 404's.
     title = `404 Not Found - ${state.frontity.title}`;
