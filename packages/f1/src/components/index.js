@@ -53,8 +53,7 @@ const Theme = ({ state }) => {
           <HomePage when={data.isHome} /> 
           <Jobs when={data.isAwsmJobOpenings} />
           <Page when={data.isPage} />
-                  <Post when={data.isPostType} />
-                  <Dil when={data.isDil} />
+          <Post when={data.isPostType} />
           <PageError when={data.isError} />
         </Switch>
       </Main>

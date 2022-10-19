@@ -37,22 +37,7 @@
           api: "https://www.tercumeburosuantalya.com.tr/wp-json/",
           url: "https://www.tercumeburosuantalya.com.tr",
           "homepage": "/home",
-              "postsPage": "/blog",
-
-              "postTypes": [
-                  {
-                      type: "dil",
-                      endpoint: "dil",
-                      archive: "/diller"
-                  }
-              ],
-              /*taxonomies: [
-                  {
-                      taxonomy: "record_cat",
-                      endpoint: "record_cat",
-                      postTypeEndpoint: "record"
-                  }
-              ]*/
+          "postsPage":"/blog"
         }
       }
     },
