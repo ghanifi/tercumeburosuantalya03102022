@@ -26,7 +26,7 @@
             "showOnPost": true
           },
           // Whether to auto-fetch links on a page. Values can be "no" | "all" | "in-view" | "hover"
-          autoPrefetch: "hover"
+          autoPrefetch: "all"
         }
       }
     },
@@ -37,7 +37,22 @@
           api: "https://www.tercumeburosuantalya.com.tr/wp-json/",
           url: "https://www.tercumeburosuantalya.com.tr",
           "homepage": "/home",
-          "postsPage":"/blog"
+              "postsPage": "/blog",
+
+              "postTypes": [
+                  {
+                      type: "dil",
+                      endpoint: "dil",
+                      archive: "/diller"
+                  }
+              ],
+              /*taxonomies: [
+                  {
+                      taxonomy: "record_cat",
+                      endpoint: "record_cat",
+                      postTypeEndpoint: "record"
+                  }
+              ]*/
         }
       }
     },
