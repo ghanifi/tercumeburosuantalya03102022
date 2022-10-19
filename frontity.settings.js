@@ -34,8 +34,8 @@
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          api: "https://londonos.tercumeburosuantalya.com.tr/wp-json",
-          url: "https://londonos.tercumeburosuantalya.com.tr",
+          api: "https://www.tercumeburosuantalya.com.tr/wp-json",
+          url: "https://www.tercumeburosuantalya.com.tr",
           "homepage": "/home",
           "postsPage":"/blog"
         }
