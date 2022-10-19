@@ -34,7 +34,7 @@
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          api: "https://www.tercumeburosuantalya.com.tr/wp-json",
+          api: "https://www.tercumeburosuantalya.com.tr/wp-json/",
           url: "https://www.tercumeburosuantalya.com.tr",
           "homepage": "/home",
           "postsPage":"/blog"
