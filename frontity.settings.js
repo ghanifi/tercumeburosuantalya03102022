@@ -45,7 +45,8 @@
     "@frontity/html2react",
     // "frontity-contact-form-7",
       "@awsmin/frontity-wp-job-openings",
-      "@aamodtgroup/frontity-contact-form-7"
+      "@aamodtgroup/frontity-contact-form-7",
+   "@frontity/yoast",
   ]
 };
 

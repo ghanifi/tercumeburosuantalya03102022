@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\packages",
+    "\\packages\\f1",
+    "\\packages\\f1\\src",
+    "\\packages\\f1\\src\\components",
+    "\\packages\\f1\\src\\components\\header",
+    "\\packages\\f1\\src\\components\\list",
+    "\\packages\\f1\\src\\processor"
+  ],
+  "SelectedNode": "\\packages\\f1\\src\\components\\page-error.js",
+  "PreviewInSolutionExplorer": false
+}
