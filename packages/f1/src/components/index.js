@@ -54,7 +54,6 @@ const Theme = ({ state }) => {
           <Jobs when={data.isAwsmJobOpenings} />
           <Page when={data.isPage} />
                   <Post when={data.isPostType} />
-                  <ListDil when={data.isDiller || data.isDillerArchive} />
                   <Dil when={data.isDil} />
           <PageError when={data.isError} />
         </Switch>
