@@ -15,7 +15,7 @@
           "menu": [
             ["Hakkımızda", "/hakkimizda/"],
             ["Hizmetlerimiz", "/hizmetlerimiz/"],
-            ["Diller", "/diller/"],            
+            ["Diller", "/tercume-dilleri/"],            
             ["Kariyer", "/jobs/"],
                 ["Blog", "/blog/"],
                 ["İletişim", "/iletisim/"],
