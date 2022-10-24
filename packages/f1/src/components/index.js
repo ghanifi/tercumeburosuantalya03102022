@@ -61,7 +61,7 @@ const Theme = ({ state }) => {
       <FooterContainer>
         <Footer/>
           </FooterContainer>
-          <WhatsappContact />
+       <WhatsappContact />
         
           {/*<div class="mobilbar">
               <ul id="altbar">
