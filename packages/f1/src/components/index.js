@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Global, css, connect, styled, Head } from "frontity";
 import Switch from "@frontity/components/switch";
 import Header from "./header/header";
@@ -62,9 +62,16 @@ const Theme = ({ state }) => {
         <Footer/>
           </FooterContainer>      
 
-          <div id="wab_cont" class="wab-cont ui-draggable wab-bottom-rectangle ui-draggable-handle">
-              <a id="whatsAppButton" href="https://wa.me/905321514767/?text=Merhabalar%2C%0D%0ATercume%20edilecek%20dosyalarinizi%20bize%20whatsapp%20ile%20gondererek%20hemen%20fiyat%20ve%20sure%20hakkinda%20bilgi%20alabilirsiniz." target="_blank">
-                  <span class="">Hemen Whatsapp ile fiyat teklifi alin.</span></a>
+        
+          <div class="mobilbar">
+              <ul id="altbar">
+                  <li class="phone">
+                      <a href="tel:+902426060647" id="simdiara_amp"><i class="fa fa-phone"></i> ŞİMDİ ARA</a>
+                  </li>
+                  <li class="whatsapp">
+                      <a href="" https://wa.me/905321514767/?text=TERCÜME%20BÜROSU%20ANTALYA" id="whatsapp_amp"><i class="fa fa-whatsapp"></i> WHATSAPP</a>
+                  </li>
+              </ul>
           </div>
     </>
   );
@@ -124,38 +131,84 @@ const globalStyles = css`
       padding: 50px 0;
     }
   }
-.wab-bottom-rectangle.wab-cont {
+div.mobilbar {
+    z-index: 99999999999;
     position: fixed;
     bottom: 0;
-    z-index: 99999;
-    width: 100%;
-    -webkit-transition: All .5s ease;
-    -moz-transition: All .5s ease;
-    -o-transition: All .5s ease;
-    -ms-transition: All .5s ease;
-    transition: All .5s ease;
-}
-.wab-bottom-rectangle #whatsAppButton {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    direction: ltr;
-    z-index: 9999;
-    cursor: pointer;
-    color: #fff;
+    left: 0;
     text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 auto 0 auto;
-    background: #20b038;
-    -webkit-transition: All .5s ease;
-    -moz-transition: All .5s ease;
-    -o-transition: All .5s ease;
-    -ms-transition: All .5s ease;
-    transition: All .5s ease;
+    height: 60px;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 15px rgb(0 0 0 / 35%);
+    -moz-box-shadow: 0 1px 15px rgba(0,0,0,.35);
+    -ms-box-shadow: 0 1px 15px rgba(0,0,0,.35);
+    -o-box-shadow: 0 1px 15px rgba(0,0,0,.35);
+    box-shadow: 0 1px 15px rgb(0 0 0 / 35%);
+    border-collapse: separate;
 }
-
+ul#altbar {
+    border: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    padding-left: 0;
+}
+ul#altbar li.phone {
+    background-color: tomato;
+}
+ul#altbar li {
+    float: left;
+    width: 50%;
+    display: table;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+ul#altbar li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+ul#altbar li a i {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 25%);
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul#altbar li.whatsapp {
+    background-color: #25d366;
+}
+ul#altbar li {
+    float: left;
+    width: 50%;
+    display: table;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.fa-whatsapp:before {
+    content: "\f232";
+}
 
 `;
 
