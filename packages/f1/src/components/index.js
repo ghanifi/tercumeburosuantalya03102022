@@ -173,38 +173,40 @@ ul#altbar li {
     width: 50%;
     display: table;
     color: #fff;
-    padding: 0;
+    /* padding: 10px; */
     margin: 0;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     list-style-type: none;
+    height: 60px;
 }
 ul#altbar li a {
     display: block;
     color: #fff;
     font-size: 14px;
     padding: 10px;
+    padding-top: 15px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
-ul#altbar li a i.phone {
+i.fa-phone {
     color: #fff;
     background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/phone-call-1.png);
     float: left;
     width: 32px;
     height: 32px;
-    margin-top: 5px;
+
     margin-left: 5px;
   
 }
-ul#altbar li a i.whatsapp {
+i.fa-whatsapp {
     color: #fff;
     background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/whatsapp-1.png);
     float: left;
     width: 32px;
     height: 32px;
-    margin-top: 5px;
+
     margin-left: 5px;
   
 }
