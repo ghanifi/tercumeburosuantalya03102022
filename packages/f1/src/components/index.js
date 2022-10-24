@@ -164,6 +164,10 @@ ul#altbar {
 ul#altbar li.phone {
     background-color: tomato;
 }
+ul#altbar li.whatsapp {
+    background-color: #25d366;
+}
+
 ul#altbar li {
     float: left;
     width: 50%;
@@ -200,9 +204,7 @@ ul#altbar li a i {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-ul#altbar li.whatsapp {
-    background-color: #25d366;
-}
+
 ul#altbar li {
     float: left;
     width: 50%;
