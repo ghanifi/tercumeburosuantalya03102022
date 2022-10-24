@@ -38,13 +38,7 @@
           url: "https://www.tercumeburosuantalya.com.tr",
           "homepage": "/home",
               "postsPage": "/blog",
-              "postTypes": [
-                  {
-                      type: "diller",
-                      endpoint: "diller",
-                      archive: "/diller"
-                  }
-              ]
+          
         }
       }
     },
