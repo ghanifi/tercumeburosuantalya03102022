@@ -8,8 +8,11 @@ const Header = ({ state }) => {
   return (
     <>
       <BrandContainer>
-        <StyledLink link="/">
-                  <Title><span>Tercüme Bürosu Antalya </span> <img src="https://cdn.tercumeburosuantalya.com.tr/wp-content/uploads/2022/10/londonos-logo-svg.svg" width="120" alt="Tercume Burosu Antalya Logo"/></Title>
+              <StyledLink link="/">
+                  <Title><span>Tercüme Bürosu Antalya </span>
+                      <img src="https://cdn.tercumeburosuantalya.com.tr/wp-content/uploads/2022/10/londonos-logo-svg.svg" width="120" height="60" alt="Tercume Burosu Antalya Logo" />
+                      <LondonosLogo />
+                  </Title>
         </StyledLink>
         <MobileMenu />
       </BrandContainer>
