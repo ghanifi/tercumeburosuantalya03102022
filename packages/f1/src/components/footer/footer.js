@@ -30,7 +30,7 @@ const Footer = ({ state }) => {
                   <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
                       <h6 className="widget-title">Tercüme Antalya</h6>
                       <ul className="widget-list">
-                          <li><Link className="widget-list-link" link="/tercume-dilleri/">Diller</Link></li>
+                          <li><Link className="widget-list-link" link="/category/tercume/">Diller</Link></li>
                           <li><Link className="widget-list-link" link="/hizmetlerimiz/">Çeviri Hizmetleri</Link></li>
                           <li><Link className="widget-list-link" link="/jobs/">İş İlanları</Link></li>
                           <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
