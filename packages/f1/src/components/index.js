@@ -187,26 +187,28 @@ ul#altbar li a {
     letter-spacing: 1px;
     font-weight: 600;
 }
-ul#altbar li a i {
+
+ul#altbar li a i.phone {
     color: #fff;
-    font-size: 20px;
-    padding: 10px 0;
-    text-shadow: 0 1px 0 rgb(0 0 0 / 25%);
+    background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/phone-call-1.png);
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: 5px;
+  
 }
-.fa-phone:before {
-    content: "\f095";
+ul#altbar li a i.whatsapp {
+    color: #fff;
+    background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/whatsapp-1.png);
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: 5px;
+  
 }
-.fa-whatsapp:before {
-    content: "\f232";
-}
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 
 
 
