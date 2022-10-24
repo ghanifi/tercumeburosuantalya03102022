@@ -15,7 +15,7 @@
           "menu": [
             ["Hakkımızda", "/hakkimizda/"],
             ["Hizmetlerimiz", "/hizmetlerimiz/"],
-            ["Diller", "/tercume-dilleri/"],            
+                ["Diller", "/category/tercume/"],            
             ["Kariyer", "/jobs/"],
                 ["Blog", "/blog/"],
                 ["İletişim", "/iletisim/"],
