@@ -60,10 +60,10 @@ const Theme = ({ state }) => {
       </Main>
       <FooterContainer>
         <Footer/>
-          </FooterContainer>      
-
+          </FooterContainer>
+          <WhatsappContact />
         
-          <div class="mobilbar">
+          {/*<div class="mobilbar">
               <ul id="altbar">
                   <li class="phone">
                       <a href="tel:+902426060647" id="simdiara_amp"><i class="fa fa-phone"></i> ŞİMDİ ARA</a>
@@ -72,7 +72,7 @@ const Theme = ({ state }) => {
                       <a href="" https://wa.me/905321514767/?text=TERCÜME%20BÜROSU%20ANTALYA" id="whatsapp_amp"><i class="fa fa-whatsapp"></i> WHATSAPP</a>
                   </li>
               </ul>
-          </div>
+          </div>*/}
     </>
   );
 };
