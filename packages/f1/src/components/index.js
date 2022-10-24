@@ -196,6 +196,9 @@ ul#altbar li a i {
 .fa-phone:before {
     content: "\f095";
 }
+.fa-whatsapp:before {
+    content: "\f232";
+}
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -205,20 +208,8 @@ ul#altbar li a i {
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul#altbar li {
-    float: left;
-    width: 50%;
-    display: table;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    list-style-type: none;
-}
-.fa-whatsapp:before {
-    content: "\f232";
-}
+
+
 
 `;
 
