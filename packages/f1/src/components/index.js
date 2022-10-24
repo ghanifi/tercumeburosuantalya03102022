@@ -14,6 +14,7 @@ import PageError from "./page-error";
 import BootstrapCss from './styles/bootstrap.css';
 import gutenbergStyle from "./styles/gutenberg/style.css";
 import gutenbergTheme from "./styles/gutenberg/theme.css";
+import WhatsappContact from "./WhatsappContact";
 
 /**
  * Theme is the root React component of our theme. The one we will export
